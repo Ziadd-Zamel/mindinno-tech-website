@@ -1,0 +1,122 @@
+{
+  "common": {
+    "logo": "TechVision"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to start your next project? Let's create something amazing together.",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "your.email@example.com",
+      "message": "Message",
+      "message_placeholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "validation": {
+      "name_required": "Name is required",
+      "email_required": "Email is required",
+      "email_invalid": "Please enter a valid email",
+      "message_required": "Message is required"
+    },
+    "success_message": "Thank you for your message! We will get back to you soon."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcasing our latest work and success stories",
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "description": "Modern shopping experience with AI-powered recommendations"
+    },
+    "healthcare": {
+      "title": "Healthcare Management",
+      "description": "Streamlined patient care and medical records system"
+    },
+    "fintech": {
+      "title": "FinTech Dashboard",
+      "description": "Real-time analytics and financial data visualization"
+    },
+    "mobile_banking": {
+      "title": "Mobile Banking App",
+      "description": "Secure and intuitive mobile banking solution"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions to power your digital journey",
+    "learn_more": "Learn more",
+    "items": {
+      "software_development": {
+        "title": "Software Development",
+        "description": "Custom software solutions built with modern technologies and best practices to meet your unique business needs."
+      },
+      "ui_ux_design": {
+        "title": "UI/UX Design",
+        "description": "Beautiful, intuitive interfaces that provide exceptional user experiences and drive engagement."
+      },
+      "digital_transformation": {
+        "title": "Digital Transformation",
+        "description": "Strategic consulting and implementation to modernize your business processes and accelerate growth."
+      }
+    }
+  },
+  "hero": {
+    "tagline": "// Innovation Starts Here",
+    "title": {
+      "line1": "Building the Future",
+      "line2": "of Technology"
+    },
+    "description": "We create cutting-edge software solutions that transform businesses and empower teams to achieve extraordinary results.",
+    "cta": {
+      "get_started": "Get Started",
+      "view_work": "View Our Work"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "footer": {
+    "company": {
+      "about_us": "About Us",
+      "careers": "Careers",
+      "blog": "Blog",
+      "press": "Press"
+    },
+    "services": {
+      "web_development": "Web Development",
+      "mobile_apps": "Mobile Apps",
+      "cloud_solutions": "Cloud Solutions",
+      "consulting": "Consulting"
+    },
+    "legal": {
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service",
+      "cookie_policy": "Cookie Policy",
+      "disclaimer": "Disclaimer"
+    },
+    "brand": {
+      "description": "Building the future of technology with innovative software solutions and digital transformation services for modern businesses."
+    },
+    "contact": {
+      "email": "info@techvision.com",
+      "phone": "+1 (234) 567-890",
+      "address": "123 Tech Street, Silicon Valley, CA"
+    },
+    "sections": {
+      "company": "Company",
+      "services": "Services",
+      "legal": "Legal"
+    },
+    "copyright": "TechVision. All rights reserved."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter"
+  }
+}

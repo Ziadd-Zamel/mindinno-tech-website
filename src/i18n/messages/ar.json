@@ -1,0 +1,123 @@
+{
+  "common": {
+    "logo": "تك فيجن"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "مستعد لبدء مشروعك القادم؟ دعنا نصنع شيئًا رائعًا معًا.",
+    "form": {
+      "name": "الاسم",
+      "name_placeholder": "اسمك",
+      "email": "البريد الإلكتروني",
+      "email_placeholder": "your.email@example.com",
+      "message": "الرسالة",
+      "message_placeholder": "أخبرنا عن مشروعك...",
+      "submit": "إرسال الرسالة",
+      "sending": "جاري الإرسال..."
+    },
+    "validation": {
+      "name_required": "الاسم مطلوب",
+      "email_required": "البريد الإلكتروني مطلوب",
+      "email_invalid": "يرجى إدخال بريد إلكتروني صالح",
+      "message_required": "الرسالة مطلوبة"
+    },
+    "success_message": "شكراً لرسالتك! سنتواصل معك قريباً."
+  },
+  "projects": {
+    "title": "المشاريع المميزة",
+    "subtitle": "عرض أحدث أعمالنا وقصص النجاح",
+    "ecommerce": {
+      "title": "منصة التجارة الإلكترونية",
+      "description": "تجربة تسوق حديثة مع توصيات مدعومة بالذكاء الاصطناعي"
+    },
+    "healthcare": {
+      "title": "إدارة الرعاية الصحية",
+      "description": "نظام مبسط لرعاية المرضى والسجلات الطبية"
+    },
+    "fintech": {
+      "title": "لوحة التحكم المالية",
+      "description": "تحليلات وبيانات مالية مرئية في الوقت الفعلي"
+    },
+    "mobile_banking": {
+      "title": "تطبيق الخدمات المصرفية",
+      "description": "حل مصرفي آمن وسهل الاستخدام عبر الهاتف المحمول"
+    }
+  },
+  "services": {
+    "title": "خدماتنا",
+    "subtitle": "حلول شاملة لدعم رحلتك الرقمية",
+    "learn_more": "اعرف المزيد",
+
+    "items": {
+      "software_development": {
+        "title": "تطوير البرمجيات",
+        "description": "حلول برمجية مخصصة مبنية بأحدث التقنيات وأفضل الممارسات لتلبية احتياجات عملك الفريدة."
+      },
+      "ui_ux_design": {
+        "title": "تصميم واجهات المستخدم",
+        "description": "واجهات جميلة وسهلة الاستخدام توفر تجارب مستخدم استثنائية وتعزز التفاعل."
+      },
+      "digital_transformation": {
+        "title": "التحول الرقمي",
+        "description": "استشارات استراتيجية وتنفيذ لتحديث عمليات عملك وتسريع النمو."
+      }
+    }
+  },
+  "hero": {
+    "tagline": "// الابتكار يبدأ هنا",
+    "title": {
+      "line1": "بناء مستقبل",
+      "line2": "التكنولوجيا"
+    },
+    "description": "نقوم بإنشاء حلول برمجية متطورة تحول الأعمال وتمكن الفرق من تحقيق نتائج استثنائية.",
+    "cta": {
+      "get_started": "ابدأ الآن",
+      "view_work": "شاهد أعمالنا"
+    }
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "projects": "المشاريع",
+    "contact": "تواصل معنا"
+  },
+  "footer": {
+    "company": {
+      "about_us": "من نحن",
+      "careers": "الوظائف",
+      "blog": "المدونة",
+      "press": "الصحافة"
+    },
+    "services": {
+      "web_development": "تطوير المواقع",
+      "mobile_apps": "تطبيقات الجوال",
+      "cloud_solutions": "الحلول السحابية",
+      "consulting": "الاستشارات"
+    },
+    "legal": {
+      "privacy_policy": "سياسة الخصوصية",
+      "terms_of_service": "شروط الخدمة",
+      "cookie_policy": "سياسة ملفات تعريف الارتباط",
+      "disclaimer": "إخلاء المسؤولية"
+    },
+    "brand": {
+      "description": "نبني مستقبل التكنولوجيا بحلول برمجية مبتكرة وخدمات التحول الرقمي للشركات الحديثة."
+    },
+    "contact": {
+      "email": "info@techvision.com",
+      "phone": "+1 (234) 567-890",
+      "address": "123 شارع التقنية، وادي السيليكون، كاليفورنيا"
+    },
+    "sections": {
+      "company": "الشركة",
+      "services": "الخدمات",
+      "legal": "الشؤون القانونية"
+    },
+    "copyright": "TechVision. جميع الحقوق محفوظة."
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter"
+  }
+}
