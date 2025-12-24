@@ -21,12 +21,6 @@ const zain = Zain({
   variable: "--font-zain",
 });
 
-const beiruti = Beiruti({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-  variable: "--font-beiruti",
-});
 
 //Metadata
 export const metadata: Metadata = {
@@ -48,7 +42,7 @@ export default async function LocaleLayout({ children }: { children: React.React
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body className={`${poppins.variable} ${zain.variable} ${beiruti.variable}`}>
+      <body className={`${poppins.variable} ${zain.variable}`}>
         <Providers>{children}</Providers>
       </body>
     </html>
