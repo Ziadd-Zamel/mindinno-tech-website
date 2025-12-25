@@ -4,14 +4,15 @@ import type { Metadata } from "next";
 import { getLocale, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import Providers from "@/components/providers";
-import { Poppins, Zain, Beiruti } from "next/font/google";
+import { Inter, Zain } from "next/font/google";
 import React from "react";
+import { cn } from "@/lib/utils";
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-inter",
 });
 
 const zain = Zain({
@@ -20,7 +21,6 @@ const zain = Zain({
   display: "swap",
   variable: "--font-zain",
 });
-
 
 //Metadata
 export const metadata: Metadata = {
@@ -42,7 +42,14 @@ export default async function LocaleLayout({ children }: { children: React.React
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body className={`${poppins.variable} ${zain.variable}`}>
+      <body
+        className={cn(
+          "rtl:text-lg",
+          locale === "en" ? inter.variable : zain.variable,
+          locale === "en" ? inter.className : zain.className,
+          locale === "ar" ? "text-2xl" : "text-base",
+        )}
+      >
         <Providers>{children}</Providers>
       </body>
     </html>

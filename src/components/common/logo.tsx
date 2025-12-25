@@ -1,17 +1,15 @@
-import { useTranslations } from "next-intl";
+import { useTheme } from "next-themes";
+import Image from "next/image";
 
 export default function Logo() {
-  const t = useTranslations();
+  const { theme } = useTheme();
   return (
-    <div className="flex items-center gap-3">
-      <div className="flex items-center gap-2">
-        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 shadow-lg shadow-blue-500/25">
-          <span className="text-sm font-bold text-white">TV</span>
-        </div>
-        <div>
-          <p className="text-sm font-semibold text-gray-900 dark:text-white">{t("common.logo")}</p>
-        </div>
-      </div>
-    </div>
+    <>
+      {theme === "dark" ? (
+        <Image src={"/assets/light-logo.svg"} alt="Logo" width={150} height={40} />
+      ) : (
+        <Image src={"/assets/logo.svg"} alt="Logo" width={150} height={40} />
+      )}
+    </>
   );
 }

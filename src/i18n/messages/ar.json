@@ -1,6 +1,8 @@
 {
   "common": {
-    "logo": "تك فيجن"
+    "logo": "تك فيجن",
+    "mail-placeholder": "أدخل بريدك الإلكتروني",
+    "call-booking": "احجز مكالمة"
   },
   "contact": {
     "title": "تواصل معنا",
@@ -45,9 +47,8 @@
   },
   "services": {
     "title": "خدماتنا",
-    "subtitle": "حلول شاملة لدعم رحلتك الرقمية",
+    "subtitle": "نحن نقدم مجموعة واسعة من الخدمات الاستشارية",
     "learn_more": "اعرف المزيد",
-
     "items": {
       "software_development": {
         "title": "تطوير البرمجيات",
@@ -82,42 +83,55 @@
     "contact": "تواصل معنا"
   },
   "footer": {
-    "company": {
-      "about_us": "من نحن",
-      "careers": "الوظائف",
-      "blog": "المدونة",
-      "press": "الصحافة"
+    "brand": {
+      "description": "أخبرنا أن ديام موربي كوام فيل فينيناتيس برين سيد"
     },
-    "services": {
-      "web_development": "تطوير المواقع",
-      "mobile_apps": "تطبيقات الجوال",
-      "cloud_solutions": "الحلول السحابية",
-      "consulting": "الاستشارات"
+    "pages": {
+      "services": "الخدمات",
+      "industries": "الصناعات",
+      "reviews": "التقييمات",
+      "case_studies": "دراسات الحالة"
     },
     "legal": {
       "privacy_policy": "سياسة الخصوصية",
-      "terms_of_service": "شروط الخدمة",
-      "cookie_policy": "سياسة ملفات تعريف الارتباط",
-      "disclaimer": "إخلاء المسؤولية"
+      "help_center": "مركز المساعدة"
     },
-    "brand": {
-      "description": "نبني مستقبل التكنولوجيا بحلول برمجية مبتكرة وخدمات التحول الرقمي للشركات الحديثة."
-    },
-    "contact": {
-      "email": "info@techvision.com",
-      "phone": "+1 (234) 567-890",
-      "address": "123 شارع التقنية، وادي السيليكون، كاليفورنيا"
-    },
-    "sections": {
-      "company": "الشركة",
-      "services": "الخدمات",
-      "legal": "الشؤون القانونية"
-    },
-    "copyright": "TechVision. جميع الحقوق محفوظة."
+    "copyright": "© جميع الحقوق محفوظة. صنع بواسطة Creatix Studio"
   },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "twitter": "Twitter"
+  },
+  "home": {
+    "hero": {
+      "title": "الحلول الفعالة لعملك",
+      "subTitle": "نحن فريق يقوم بإنشاء استراتيجيات تسويقية لشركات B2B وB2C"
+    }
+  },
+  "stats": {
+    "happy-clients": "عملاء سعداء",
+    "projects-completed": "مشاريع مكتملة",
+    "full-specialists": "متخصصون بدوام كامل",
+    "awards-won": "الجوائز التي فاز بها"
+  },
+  "work": {
+    "title": "الصناعات التي نعمل بها",
+    "subtitle": "لقد قمنا بمساعدة الشركات في الصناعات التالية لأكثر من عقد من الزمان",
+    "action": "شاهد جميع الصناعات"
+  },
+  "client": {
+    "title": "عملائنا",
+    "subTitle": "أكثر من 2000 عميل يستخدمون حوالي لتحليل البيانات"
+  },
+  "testimonials": {
+    "title": "الشهادات"
+  },
+  "case": {
+    "title": "دراسات الحالة الحديثة",
+    "action": "قراءة جميع دراسات الحالة"
+  },
+  "cta": {
+    "title": "هل أنت مستعد للارتقاء بعملك إلى المستوى التالي؟"
   }
 }

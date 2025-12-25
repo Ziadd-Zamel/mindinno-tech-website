@@ -10,18 +10,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-blue-600 text-white hover:bg-blue-500 disabled:bg-blue-300",
+        default: "bg-main text-white hover:bg-main/80 disabled:bg-blue-300",
         outline:
-          "border border-blue-600 bg-white text-blue-600 hover:bg-blue-600 hover:text-white disabled:bg-blue-100 disabled:border-blue-300 disabled:text-blue-300",
+          "border border-main bg-white text-main hover:bg-main hover:text-white disabled:bg-blue-100 disabled:border-blue-300 disabled:text-blue-300",
         destructive:
           "bg-red-600 text-white hover:bg-red-500 disabled:bg-red-300 disabled:border-red-300",
         secondary:
           "bg-gray-100 text-blue-700 hover:bg-gray-200 border border-gray-300 disabled:bg-gray-200 disabled:border-gray-300 disabled:text-gray-400",
-        ghost: "text-blue-600 hover:bg-blue-50 hover:text-blue-700 disabled:text-blue-300",
+        ghost: "text-main hover:bg-blue-50 hover:text-blue-700 disabled:text-blue-300",
         soft: "bg-blue-50 text-blue-700 hover:bg-blue-100",
 
-        link: "bg-transparent text-blue-600 underline underline-offset-4 hover:no-underline hover:text-blue-700 focus-visible:ring-0",
-        elevated: "bg-blue-600 text-white shadow-md hover:shadow-lg hover:bg-blue-500",
+        link: "bg-transparent text-main underline underline-offset-4 hover:no-underline hover:text-blue-700 focus-visible:ring-0",
+        elevated: "bg-main text-white shadow-md hover:shadow-lg hover:bg-main/70",
         inverted: "bg-white text-blue-700 hover:bg-blue-50 border border-blue-200",
         trigger:
           "flex h-10 w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[placeholder]:text-muted-foreground [&>span]:line-clamp-1",

@@ -1,6 +1,8 @@
 {
   "common": {
-    "logo": "TechVision"
+    "logo": "TechVision",
+    "mail-placeholder": "Enter your email",
+    "call-booking": "Book a call"
   },
   "contact": {
     "title": "Get In Touch",
@@ -45,7 +47,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive solutions to power your digital journey",
+    "subtitle": "We provide a wide range of consulting services",
     "learn_more": "Learn more",
     "items": {
       "software_development": {
@@ -81,42 +83,55 @@
     "contact": "Contact"
   },
   "footer": {
-    "company": {
-      "about_us": "About Us",
-      "careers": "Careers",
-      "blog": "Blog",
-      "press": "Press"
+    "brand": {
+      "description": "Tellus non diam morbi quam vel venenatis proin sed"
     },
-    "services": {
-      "web_development": "Web Development",
-      "mobile_apps": "Mobile Apps",
-      "cloud_solutions": "Cloud Solutions",
-      "consulting": "Consulting"
+    "pages": {
+      "services": "Services",
+      "industries": "Industries",
+      "reviews": "Reviews",
+      "case_studies": "Case studies"
     },
     "legal": {
-      "privacy_policy": "Privacy Policy",
-      "terms_of_service": "Terms of Service",
-      "cookie_policy": "Cookie Policy",
-      "disclaimer": "Disclaimer"
+      "privacy_policy": "Privacy policy",
+      "help_center": "Help center"
     },
-    "brand": {
-      "description": "Building the future of technology with innovative software solutions and digital transformation services for modern businesses."
-    },
-    "contact": {
-      "email": "info@techvision.com",
-      "phone": "+1 (234) 567-890",
-      "address": "123 Tech Street, Silicon Valley, CA"
-    },
-    "sections": {
-      "company": "Company",
-      "services": "Services",
-      "legal": "Legal"
-    },
-    "copyright": "TechVision. All rights reserved."
+    "copyright": "© All rights reserved. Made by Creatix Studio"
   },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
     "twitter": "Twitter"
+  },
+  "home": {
+    "hero": {
+      "title": "The effective solutions for your business\n",
+      "subTitle": "We are a team who creates marketing strategies for B2B and B2C companies\n"
+    }
+  },
+  "stats": {
+    "happy-clients": "Happy clients",
+    "projects-completed": "Projects completed",
+    "full-specialists": "Full time specialists",
+    "awards-won": "Awards won"
+  },
+  "work": {
+    "title": "Industries we work in",
+    "subtitle": "We have been helping businesses in the following industries for over a decade",
+    "action": "See all industries"
+  },
+  "client": {
+    "title": "Our clients",
+    "subTitle": "More than 2,000 clients using Around to analyze data"
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "case": {
+    "title": "Recent case studies",
+    "action": "          Read all case studies\n"
+  },
+  "cta": {
+    "title": "Ready to take your business the next level?"
   }
 }

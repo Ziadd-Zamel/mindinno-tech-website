@@ -7,11 +7,12 @@ import { SwitchLocale } from "./switch-lang";
 import { ThemeSwitcher } from "./theme-switcher";
 import Logo from "@/components/common/logo";
 import { useTranslations } from "next-intl";
+import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const t = useTranslations();
   return (
-    <header className="border-border/40 bg-background/80 fixed top-0 right-0 left-0 z-50 border-b backdrop-blur-lg">
+    <header className="bg-background/80 fixed top-0 right-0 left-0 z-50 backdrop-blur-lg">
       <nav className="box-container">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
@@ -32,7 +33,11 @@ export default function Navbar() {
             className="hidden md:flex md:items-center md:gap-8"
           >
             {NAVIGATION.map((item) => (
-              <Link href={`${item.href}`} key={item.href}>
+              <Link
+                href={`${item.href}`}
+                key={item.href}
+                className="hover:text-main font-inter text-sm font-[300]"
+              >
                 {t(item.name)}
               </Link>
             ))}
@@ -47,8 +52,8 @@ export default function Navbar() {
           >
             {/* Switchers */}
             <div className="hidden md:flex md:items-center md:gap-8">
-              <SwitchLocale />
               <ThemeSwitcher />
+              <Button>Contact Us</Button>
             </div>
 
             {/* Mobile Menu */}
